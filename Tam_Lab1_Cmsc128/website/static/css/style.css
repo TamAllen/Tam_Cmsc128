@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/static/img/pic1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.login-page{
+    width: 700px;
+    /*padding: 10% 0 0;*/
+    padding-top: 200px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin: auto;
+}
+.form-group{
+    position: relative;
+    z-index: 1;
+    background: rgba(54, 55, 63, 0.8);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.form-group input {
+    font-family: "Roboto",sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form-group button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #693307;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color:#ffffff;
+    font-size: 14px;
+    cursor: zoom-in;
+}
+
+.form-group button :hover, .form button :active{
+    background: #43a047
+}
+
+.form-group .message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.form-group .message a{
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.form-group .register-form{
+    display: none;
+}
